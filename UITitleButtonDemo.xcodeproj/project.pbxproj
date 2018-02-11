@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA327579202EEBA9007E4065 /* UIColor+TBPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = DA327575202EEBA8007E4065 /* UIColor+TBPalette.m */; };
-		DA32757A202EEBA9007E4065 /* UIImage+TBTint.m in Sources */ = {isa = PBXBuildFile; fileRef = DA327576202EEBA8007E4065 /* UIImage+TBTint.m */; };
 		DA3AF6C0202C626B003E0E8C /* UITButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3AF6BE202C626B003E0E8C /* UITButton.m */; };
 		DA6B98C62030321300112956 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6B98C52030321300112956 /* visa.png */; };
 		DA6B98C820303F8E00112956 /* add-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6B98C720303F8E00112956 /* add-2.png */; };
@@ -16,7 +14,6 @@
 		DA8E690F202ED1BD00469560 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8E690E202ED1BD00469560 /* facebook.png */; };
 		DA8E6911202ED84900469560 /* alipay.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8E6910202ED84900469560 /* alipay.png */; };
 		DA8E6913202EDD1900469560 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8E6912202EDD1900469560 /* delete.png */; };
-		DA8E6916202EE8CD00469560 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8E6915202EE8CD00469560 /* TableViewController.m */; };
 		DA9DF10D202FDB19002BE979 /* teacter.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9DF10C202FDB19002BE979 /* teacter.png */; };
 		DA9DF10F202FE0B5002BE979 /* lamp-2_128px.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9DF10E202FE0B5002BE979 /* lamp-2_128px.png */; };
 		DA9DF111202FEB2A002BE979 /* triangle_dark_up.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9DF110202FEB2A002BE979 /* triangle_dark_up.png */; };
@@ -51,10 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA327575202EEBA8007E4065 /* UIColor+TBPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TBPalette.m"; sourceTree = "<group>"; };
-		DA327576202EEBA8007E4065 /* UIImage+TBTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBTint.m"; sourceTree = "<group>"; };
-		DA327577202EEBA8007E4065 /* UIImage+TBTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBTint.h"; sourceTree = "<group>"; };
-		DA327578202EEBA8007E4065 /* UIColor+TBPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TBPalette.h"; sourceTree = "<group>"; };
 		DA3AF6BE202C626B003E0E8C /* UITButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITButton.m; sourceTree = "<group>"; };
 		DA3AF6BF202C626B003E0E8C /* UITButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITButton.h; sourceTree = "<group>"; };
 		DA6B98C52030321300112956 /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
@@ -63,8 +56,6 @@
 		DA8E690E202ED1BD00469560 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		DA8E6910202ED84900469560 /* alipay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alipay.png; sourceTree = "<group>"; };
 		DA8E6912202EDD1900469560 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
-		DA8E6914202EE8CD00469560 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		DA8E6915202EE8CD00469560 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		DA9DF10C202FDB19002BE979 /* teacter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teacter.png; sourceTree = "<group>"; };
 		DA9DF10E202FE0B5002BE979 /* lamp-2_128px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-2_128px.png"; sourceTree = "<group>"; };
 		DA9DF110202FEB2A002BE979 /* triangle_dark_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle_dark_up.png; sourceTree = "<group>"; };
@@ -115,17 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA327574202EEBA8007E4065 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				DA327578202EEBA8007E4065 /* UIColor+TBPalette.h */,
-				DA327575202EEBA8007E4065 /* UIColor+TBPalette.m */,
-				DA327577202EEBA8007E4065 /* UIImage+TBTint.h */,
-				DA327576202EEBA8007E4065 /* UIImage+TBTint.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 		DA3AF6BD202C626B003E0E8C /* UITButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,15 +164,12 @@
 				DAFD1E7E2021AC2D00A468AF /* AppDelegate.m */,
 				DAFD1E802021AC2D00A468AF /* ViewController.h */,
 				DAFD1E812021AC2D00A468AF /* ViewController.m */,
-				DA8E6914202EE8CD00469560 /* TableViewController.h */,
-				DA8E6915202EE8CD00469560 /* TableViewController.m */,
 				DAFD1EA82021B28A00A468AF /* ViewController+createButton.h */,
 				DAFD1EA92021B28A00A468AF /* ViewController+createButton.m */,
 				DAFD1EA52021AE9100A468AF /* ButtonContainerTableViewCell.h */,
 				DAFD1EA62021AE9100A468AF /* ButtonContainerTableViewCell.m */,
 				DAD6258920240322006BEAD7 /* UICellButton.h */,
 				DAD6258A20240322006BEAD7 /* UICellButton.m */,
-				DA327574202EEBA8007E4065 /* Categories */,
 				DA3AF6BD202C626B003E0E8C /* UITButton */,
 				DA8E690D202ED1B200469560 /* Images */,
 				DAFD1E832021AC2D00A468AF /* Main.storyboard */,
@@ -332,16 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA32757A202EEBA9007E4065 /* UIImage+TBTint.m in Sources */,
 				DAFD1E822021AC2D00A468AF /* ViewController.m in Sources */,
 				DAFD1E8D2021AC2D00A468AF /* main.m in Sources */,
 				DAFD1EAA2021B28A00A468AF /* ViewController+createButton.m in Sources */,
 				DA3AF6C0202C626B003E0E8C /* UITButton.m in Sources */,
 				DAD6258B20240322006BEAD7 /* UICellButton.m in Sources */,
-				DA327579202EEBA9007E4065 /* UIColor+TBPalette.m in Sources */,
 				DAFD1E7F2021AC2D00A468AF /* AppDelegate.m in Sources */,
 				DAFD1EA72021AE9100A468AF /* ButtonContainerTableViewCell.m in Sources */,
-				DA8E6916202EE8CD00469560 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
